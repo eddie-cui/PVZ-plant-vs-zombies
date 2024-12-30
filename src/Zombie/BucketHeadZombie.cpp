@@ -1,0 +1,2 @@
+#include "pvz/GameObject/BucketHeadZombie.hpp"
+BucketHeadZombie::BucketHeadZombie(int x,int y,std::shared_ptr<GameWorld>gw):Zombie(IMGID_BUCKET_HEAD_ZOMBIE,x,y,1300,true,ANIMID_WALK_ANIM,gw,Object_type::Zombie,200,IMGID_REGULAR_ZOMBIE){}

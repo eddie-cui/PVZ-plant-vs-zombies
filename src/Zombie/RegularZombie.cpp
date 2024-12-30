@@ -1,0 +1,2 @@
+#include "pvz/GameObject/RegularZombie.hpp"
+RegularZombie::RegularZombie(int x,int y,std::shared_ptr<GameWorld>gw):Zombie(IMGID_REGULAR_ZOMBIE,x,y,200,false,ANIMID_WALK_ANIM,gw,Object_type::Zombie,0,IMGID_NONE){}
